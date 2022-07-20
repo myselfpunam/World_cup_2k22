@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap');
+/* .....Body section start.......... */
+body{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(226, 225, 225);
+}
+/* .....Body section start.......... */
+/* .....Heading section start.......... */
+header{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.container{
+  width: 90%;
+  height:646px;
+  justify-content: space-evenly;
+  background-color: rgb(124, 169, 177);
+  display:flex;
+  align-items: center;
+  border-radius: 25px;
+
+}
+/* .....Heading section End.......... */
+/* .....News section start.......... */
+main{
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.second-main{
+  margin-top: 40px;
+  
+}
+.second-main1{
+  margin-top: 40px;
+  
+}
+.content{
+  display: flex;
+  column-gap: 65px;
+}
+.content1{
+  display: flex;
+  column-gap: 20px;
+}
+.blog-site{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4,26.2%);
+  
+}
+.blog-site-2{
+  width: 66.5%;
+  display: grid;
+  grid-template-columns: repeat(3,35.5%);
+  margin-left: 24%;
+  
+}
+.blog-site-2-1{
+  width: 66.5%;
+  display: grid;
+  grid-template-columns: 33.5% 33.5% 33.5%;
+  margin-left: 440px;
+  margin-left: 24%;
+}
+
+h2{
+  color: rgb(1, 8, 14);
+  font-size: 80px;
+  width: 531px;
+  height: 240px;
+  
+}
+p{
+  color: rgb(1, 8, 14);
+  font-size: 16px;
+  font-family: 'Ibarra Real Nova', serif;
+  margin-top: 10px;
+  width: 506px;
+  height: 76px;
+}
+.text{
+  margin-bottom: 50px;
+}
+.btn{
+  background-color: brown;
+  border-radius: 5px;
+  width: 187px;
+  height: 56px;
+  font-size: 20px;
+  color: rgb(78, 219, 219);
+
+}
+.btn:hover{
+  background-color: rgb(54, 54, 184);
+  width: 531px ;
+  transition-property: width;
+  transition-duration: 2s;
+  color:white;
+}
+
+.player img{
+  height: 646px;
+}
+.fa-play{
+  color: black;
+  margin-left: 15px;
+}
+.box{
+  width: 400px;
+  height: 400px;
+  background-color: rgb(124, 169, 177);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.notice{
+  width: 252px;
+  height: 64px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: black;
+  color: aliceblue;
+}
+.notice:hover{
+  background-color: brown;
+}
+.notice-now{
+  width: 252px;
+  height: 64px;
+  border-radius: 10px;
+  background-color: brown;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image img{
+  width: 400px;
+  height: 250px;
+  border-radius: 20px 20px 0 0;
+}
+.image1 img{
+  width: 160px;
+  height: 100px;
+}
+h3{
+  width: 250px;
+}
+.blog{
+  width: 400px;
+  height: 500px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.blog1{
+  width: 400px;
+  height: 300px;
+  border: 1px solid white;
+  border-radius: 20px;
+  
+}
+.btn-blog{
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: brown;
+  color: aliceblue;
+  font-size: large;
+
+}
+.btn-blog:hover{
+  background-color: rgb(124, 169, 177);
+  color: black;
+}
+.news{
+  padding-left: 20px;  
+}
+.news1{
+  padding-left: 30%;
+  padding-top: 7%;
+}
+.extra{
+  display: none;
+  
+}
+.btn-extra{
+  width: 200px;
+  height: 40px;
+  background-color: brown;
+  color: aliceblue;
+  border-radius: 5px;
+}
+.btn-extra:hover{
+  background-color: rgb(54, 54, 184);
+}
+/* .....News section End.......... */
+/* .....Footer section start.......... */
+footer{
+  margin-top: 120px;
+  padding-top: 100px;
+  background-color: rgb(58, 56, 56);
+  text-align: center;
+  
+}
+.match-foot{
+  margin-top: 120px;
+  padding-top: 100px;
+  background-color: rgb(58, 56, 56);
+  text-align: center;
+  
+}
+h1{
+  padding-bottom: 50px;
+  color: brown;
+  
+}
+hr{
+  color: rgb(100, 100, 100);
+  width: 90%;
+  
+}
+a{
+  text-decoration: none;
+  color: rgb(201, 201, 201);
+}
+a:hover{
+  color: brown;
+}
+.final{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  font-size: large;
+}
+.new{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  align-items: center;
+}
+ul{
+  list-style: none;
+}
+.icons{
+  display: none;
+}
+/* .....Footer section End.......... */
+/* .......Media query for Mobile Start.......... */
+@media only screen and (max-width:688px){
+  
+  .container{
+    width: 95%;
+    height:800px;
+    background-color: rgb(124, 169, 177);
+    display: grid;
+    grid-template-rows: 50% 50%;
+    border-radius: 25px;
+
+  }
+  .content{
+    display: grid;
+    column-gap: 95px;
+  }
+  .content1{
+    display: grid;
+    
+  }
+  .player img{
+    height: 400px;
+  }
+  h2{
+    color: rgb(1, 8, 14);
+    font-size: 40px;
+    width: 200px;
+    
+  }
+  p{
+    color: rgb(1, 8, 14);
+    font-size: 16px;
+    font-family: 'Ibarra Real Nova', serif;
+    width: 200px;
+    height: 76px;
+  }
+  .text p{
+    margin-top: -70px;
+  }
+  .text button{
+    margin-top: 20px;
+  }
+  .btn{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(78, 219, 219);
+  
+  }
+  .btn:hover{
+    background-color: rgb(54, 54, 184);
+    width: 250px ;
+    transition-property: width;
+    transition-duration: 2s;
+    color:white;
+  }
+  main{
+    margin-top: 10px;
+  }
+  .blog-site{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(1,26.2%);
+  margin-bottom: 10px;
+  
+  }
+  .box{
+    width: 300px;
+    background-color: rgb(226, 225, 225);
+  }
+  .image img{
+    width: 300px;
+  }
+  .blog{
+    width: 300px;
+    margin-bottom: 50px;
+  }
+  .blog-site-2{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1,35.5%);
+    margin-left: 0%;
+    
+  }
+  .final{
+    display: grid;
+  }
+  .icons{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .fa-facebook,.fa-twitter{
+    color: rgb(15, 152, 231);
+  }
+  .fa-instagram{
+    color: brown;
+  }
+  .blog1{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    
+  }
+  .image1 img{
+    width: 100px;
+    height: 80px;
+  }
+  .blog-site-2-1{
+    display: none;
+  }
+}
+/* .......Media query for Mobile Start.......... */
+/* .......Media query for Tablet Start.......... */
+@media only screen and (min-width:689px) and (max-width:992px){
+  
+  .player img{
+    height: 600px;
+  }
+  h2{
+    color: rgb(1, 8, 14);
+    font-size: 40px;
+    width: 200px;
+    
+  }
+  p{
+    color: rgb(1, 8, 14);
+    font-size: 16px;
+    font-family: 'Ibarra Real Nova', serif;
+    width: 200px;
+    height: 76px;
+  }
+  .text p{
+    margin-top: -70px;
+  }
+  .text button{
+    margin-top: 20px;
+  }
+  .btn{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(78, 219, 219);
+  
+  }
+  .btn:hover{
+    background-color: rgb(54, 54, 184);
+    width: 200px ;
+    transition-property: width;
+    transition-duration: 2s;
+    color:white;
+  }
+  main{
+    margin-top: 10px;
+  }
+  .content{
+    display: grid;
+    grid-template-columns: repeat(2,70%);
+  }
+  .content1{
+    display: grid;
+    grid-template-columns: repeat(2,90%);
+  }
+  
+  .blog-site{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(1,50%);
+  margin-bottom: 10px;
+  
+  }
+  .box{
+    display: flex;
+    width: 250px;
+    background-color: rgb(226, 225, 225);
+    justify-content: space-evenly;
+    padding-left: 65%
+  }
+  .image img{
+    width: 300px;
+  }
+  .blog{
+    width: 300px;
+    margin-bottom: 50px;
+  }
+  .blog-site-2{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    margin-left: 0%;
+    
+  }
+  .final{
+    display: grid;
+  }
+  .icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .fa-facebook,.fa-twitter{
+    color: rgb(15, 152, 231);
+  }
+  .fa-instagram{
+    color: brown;
+  }
+  .blog1{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    
+  }
+  .image1 img{
+    width: 100px;
+    height: 80px;
+  }
+  .blog-site-2-1{
+    display: none;
+  }
+  .foot{
+    margin-right: 150px;
+    width: 100%;
+  }
+  .extra{
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+}
+/* .......Media query for Tablet End.......... */
