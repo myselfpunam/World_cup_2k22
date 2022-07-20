@@ -39,7 +39,7 @@ main{
 }
 .content{
   display: flex;
-  column-gap: 65px;
+  column-gap: 35px;
 }
 .content1{
   display: flex;
